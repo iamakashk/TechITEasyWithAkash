@@ -54,7 +54,7 @@ public class UserController {
     }
 
     @GetMapping("/test")
-    public String test(@PathVariable Long id) {
+    public String test() {
         return "Test Success!";
     }
 }
