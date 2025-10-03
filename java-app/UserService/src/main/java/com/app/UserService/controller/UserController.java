@@ -52,4 +52,9 @@ public class UserController {
                 ResponseEntity.noContent().build() :
                 ResponseEntity.notFound().build();
     }
+
+    @GetMapping("/test")
+    public String test(@PathVariable Long id) {
+        return "Test Success!";
+    }
 }
