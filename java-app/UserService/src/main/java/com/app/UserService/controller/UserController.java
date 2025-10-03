@@ -57,4 +57,9 @@ public class UserController {
     public String test() {
         return "Test Success!";
     }
+
+    @GetMapping("/hello")
+    public String helloWorld() {
+        return "Hello from Tech IT Easy With Akash";
+    }
 }
